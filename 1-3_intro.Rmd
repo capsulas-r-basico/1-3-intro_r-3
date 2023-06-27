@@ -1,0 +1,131 @@
+---
+title: "R and databases"
+subtitle: "calidad"
+author: 
+date: '`r Sys.Date()`'
+output:
+  xaringan::moon_reader:
+    seal: false
+    #lib_dir: libs
+    css: xaringan-themer.css
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: False
+      ratio: '13:9'
+---
+
+class: center, middle
+
+.linea-superior[]
+.linea-inferior[]
+
+<img src="imagenes/logo_portada2.png" width="200" />
+
+## INE Educa: Clases abiertas de R
+
+## Introducción a RStudio
+
+## Proyecto Ciencia de Datos
+
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = TRUE)
+knitr::opts_chunk$set(message = FALSE, warning = F, eval = T, fig.align = "center") 
+options(scipen = "999")
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+xaringanExtra::use_panelset()
+```
+
+
+---
+
+
+background-image: url("imagenes/fondo2.PNG")
+background-size: contain;
+background-position: 100% 0%
+
+# Conociendo RStudio
+
+RStudio es un entorno de desarrollo (IDE en inglés) pensado especialmente para R
+
+--
+
+Es el IDE más popular dentro de la comunidad de R
+
+
+--
+
+Tiene una gran cantidad de funcionalidad que ayudan en el trabajo cotidiano
+
+
+---
+background-image: url("imagenes/fondo2.PNG")
+background-size: contain;
+background-position: 100% 0%
+
+# Panel de scripts
+
+.center[
+<img src="imagenes/scripts.png" width="1000" />
+
+]
+
+---
+
+background-image: url("imagenes/fondo2.PNG")
+background-size: contain;
+background-position: 100% 0%
+
+# Panel de ambiente
+
+.center[
+<img src="imagenes/ambiente.png" width="1000" />
+
+]
+
+---
+
+background-image: url("imagenes/fondo2.PNG")
+background-size: contain;
+background-position: 100% 0%
+
+# Panel de archivos
+
+.center[
+<img src="imagenes/archivos.png" width="1000" />
+
+]
+
+
+---
+background-image: url("imagenes/fondo2.PNG")
+background-size: contain;
+background-position: 100% 0%
+
+# Panel de consola
+
+.center[
+<img src="imagenes/consola.png" width="1000" />
+
+]
+
+
+---
+
+class: center, middle
+
+.linea-superior[]
+.linea-inferior[]
+
+<img src="imagenes/logo_portada2.png" width="200" />
+
+
+## INE Educa: Clases abiertas de R
+
+## Introducción a RStudio
+
+## Proyecto Ciencia de Datos
