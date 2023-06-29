@@ -59,7 +59,7 @@ Es el IDE más popular dentro de la comunidad de R
 
 --
 
-Tiene una gran cantidad de funcionalidad que ayudan en el trabajo cotidiano
+Tiene una gran cantidad de funcionalidades que ayudan en el trabajo cotidiano
 
 
 ---
